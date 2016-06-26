@@ -66,7 +66,7 @@
             .catch(errorCallback)
             .finally(getAllReadersComplete);
         
-        function getReadersSuccess(readers) {
+        function getReadersSuccess(readers) { 
             vm.allReaders = readers;
         }
         

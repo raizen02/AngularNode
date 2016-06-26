@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AngularNode", "AngularNode\AngularNode.njsproj", "{4D99EBFE-A54E-4D47-AFDF-125901619480}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Test", "Test\Test.njsproj", "{06320C96-27A1-451A-A741-127B208ED323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D99EBFE-A54E-4D47-AFDF-125901619480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D99EBFE-A54E-4D47-AFDF-125901619480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D99EBFE-A54E-4D47-AFDF-125901619480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06320C96-27A1-451A-A741-127B208ED323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06320C96-27A1-451A-A741-127B208ED323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06320C96-27A1-451A-A741-127B208ED323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06320C96-27A1-451A-A741-127B208ED323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

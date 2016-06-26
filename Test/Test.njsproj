@@ -3,17 +3,16 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>AngularNode</Name>
-    <RootNamespace>AngularNode</RootNamespace>
-    <NodeExePath>C:\Program Files\nodejs\node.exe</NodeExePath>
+    <Name>Test</Name>
+    <RootNamespace>Test</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4d99ebfe-a54e-4d47-afdf-125901619480</ProjectGuid>
+    <ProjectGuid>06320c96-27a1-451a-a741-127b208ed323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>nodeApp.js</StartupFile>
+    <StartupFile>bin\www</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +21,7 @@
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
     <ProjectView>ShowAllFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
-    <StartWebBrowser>True</StartWebBrowser>
+    <StartWebBrowser>true</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,13 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="nodeApp.js" />
-    <Compile Include="public\javascripts\app.js" />
-    <Compile Include="public\javascripts\controller\BooksController.js" />
-    <Compile Include="public\javascripts\services\badgeService.js" />
-    <Compile Include="public\javascripts\services\constantService.js" />
-    <Compile Include="public\javascripts\services\dataService.js" />
-    <Compile Include="public\javascripts\services\loggerService.js" />
+    <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
@@ -54,9 +47,6 @@
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
-    <Folder Include="public\javascripts\controller\" />
-    <Folder Include="public\javascripts\lib\" />
-    <Folder Include="public\javascripts\services\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
